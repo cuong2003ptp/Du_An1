@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A18A96B-0B52-4030-9CF8-EA33361EA881}|C_PRL\\C_PRL.csproj|c:\\users\\duc\\onedrive\\desktop\\sd19317\\du_an1\\c_prl\\forms\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A18A96B-0B52-4030-9CF8-EA33361EA881}|C_PRL\\C_PRL.csproj|solutionrelative:c_prl\\forms\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A18A96B-0B52-4030-9CF8-EA33361EA881}|C_PRL\\C_PRL.csproj|C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\c_prl\\forms\\frm_banhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A18A96B-0B52-4030-9CF8-EA33361EA881}|C_PRL\\C_PRL.csproj|solutionrelative:c_prl\\forms\\frm_banhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A18A96B-0B52-4030-9CF8-EA33361EA881}|C_PRL\\C_PRL.csproj|C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\c_prl\\forms\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A18A96B-0B52-4030-9CF8-EA33361EA881}|C_PRL\\C_PRL.csproj|solutionrelative:c_prl\\forms\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A18A96B-0B52-4030-9CF8-EA33361EA881}|C_PRL\\C_PRL.csproj|C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\c_prl\\forms\\frm_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A18A96B-0B52-4030-9CF8-EA33361EA881}|C_PRL\\C_PRL.csproj|solutionrelative:c_prl\\forms\\frm_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A18A96B-0B52-4030-9CF8-EA33361EA881}|C_PRL\\C_PRL.csproj|C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\c_prl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A18A96B-0B52-4030-9CF8-EA33361EA881}|C_PRL\\C_PRL.csproj|solutionrelative:c_prl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Frm_Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\C_PRL\\Forms\\Frm_Main.cs",
+              "RelativeDocumentMoniker": "C_PRL\\Forms\\Frm_Main.cs",
+              "ToolTip": "C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\C_PRL\\Forms\\Frm_Main.cs [Design]",
+              "RelativeToolTip": "C_PRL\\Forms\\Frm_Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T07:23:34.399Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Frm_BanHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\C_PRL\\Forms\\Frm_BanHang.cs",
+              "RelativeDocumentMoniker": "C_PRL\\Forms\\Frm_BanHang.cs",
+              "ToolTip": "C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\C_PRL\\Forms\\Frm_BanHang.cs [Design]",
+              "RelativeToolTip": "C_PRL\\Forms\\Frm_BanHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T06:54:17.186Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Frm_Main.cs",
+              "DocumentMoniker": "C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\C_PRL\\Forms\\Frm_Main.cs",
+              "RelativeDocumentMoniker": "C_PRL\\Forms\\Frm_Main.cs",
+              "ToolTip": "C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\C_PRL\\Forms\\Frm_Main.cs",
+              "RelativeToolTip": "C_PRL\\Forms\\Frm_Main.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T06:42:33.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\C_PRL\\Program.cs",
+              "RelativeDocumentMoniker": "C_PRL\\Program.cs",
+              "ToolTip": "C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\C_PRL\\Program.cs",
+              "RelativeToolTip": "C_PRL\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T06:41:59.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Frm_HoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\C_PRL\\Forms\\Frm_HoaDon.cs",
+              "RelativeDocumentMoniker": "C_PRL\\Forms\\Frm_HoaDon.cs",
+              "ToolTip": "C:\\Users\\Duc\\OneDrive\\Desktop\\SD19317\\Du_An1\\C_PRL\\Forms\\Frm_HoaDon.cs [Design]",
+              "RelativeToolTip": "C_PRL\\Forms\\Frm_HoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T06:37:16.521Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
