@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\A_DAL\A_DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Feature\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
