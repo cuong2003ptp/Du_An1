@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C_PRL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e5acaab9c4feeb47ea2e2688461bbfe23237032")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c844c611644fad6b22c3f85ef8b4e70be53eed3")]
 [assembly: System.Reflection.AssemblyProductAttribute("C_PRL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C_PRL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -30,12 +30,13 @@
         {
             pn_Menu = new Panel();
             button6 = new Button();
-            button5 = new Button();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            btn_KhachHang = new Button();
+            btn_NhanVien = new Button();
+            btn_SanPham = new Button();
+            btn_HoaDon = new Button();
+            btn_BanHang = new Button();
             panel1 = new Panel();
+            pn_Show = new Panel();
             pn_Menu.SuspendLayout();
             SuspendLayout();
             // 
@@ -43,11 +44,11 @@
             // 
             pn_Menu.BackColor = Color.ForestGreen;
             pn_Menu.Controls.Add(button6);
-            pn_Menu.Controls.Add(button5);
-            pn_Menu.Controls.Add(button4);
-            pn_Menu.Controls.Add(button3);
-            pn_Menu.Controls.Add(button2);
-            pn_Menu.Controls.Add(button1);
+            pn_Menu.Controls.Add(btn_KhachHang);
+            pn_Menu.Controls.Add(btn_NhanVien);
+            pn_Menu.Controls.Add(btn_SanPham);
+            pn_Menu.Controls.Add(btn_HoaDon);
+            pn_Menu.Controls.Add(btn_BanHang);
             pn_Menu.Controls.Add(panel1);
             pn_Menu.Dock = DockStyle.Left;
             pn_Menu.Location = new Point(0, 0);
@@ -68,73 +69,74 @@
             button6.TextAlign = ContentAlignment.MiddleLeft;
             button6.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btn_KhachHang
             // 
-            button5.Dock = DockStyle.Top;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.ForeColor = SystemColors.ButtonHighlight;
-            button5.Location = new Point(0, 434);
-            button5.Name = "button5";
-            button5.Size = new Size(300, 71);
-            button5.TabIndex = 5;
-            button5.Text = "Khách Hàng";
-            button5.TextAlign = ContentAlignment.MiddleLeft;
-            button5.UseVisualStyleBackColor = true;
+            btn_KhachHang.Dock = DockStyle.Top;
+            btn_KhachHang.FlatStyle = FlatStyle.Flat;
+            btn_KhachHang.ForeColor = SystemColors.ButtonHighlight;
+            btn_KhachHang.Location = new Point(0, 434);
+            btn_KhachHang.Name = "btn_KhachHang";
+            btn_KhachHang.Size = new Size(300, 71);
+            btn_KhachHang.TabIndex = 5;
+            btn_KhachHang.Text = "Khách Hàng";
+            btn_KhachHang.TextAlign = ContentAlignment.MiddleLeft;
+            btn_KhachHang.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btn_NhanVien
             // 
-            button4.Dock = DockStyle.Top;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.ForeColor = SystemColors.ButtonHighlight;
-            button4.Location = new Point(0, 363);
-            button4.Name = "button4";
-            button4.Size = new Size(300, 71);
-            button4.TabIndex = 4;
-            button4.Text = "Nhân Viên";
-            button4.TextAlign = ContentAlignment.MiddleLeft;
-            button4.UseVisualStyleBackColor = true;
+            btn_NhanVien.Dock = DockStyle.Top;
+            btn_NhanVien.FlatStyle = FlatStyle.Flat;
+            btn_NhanVien.ForeColor = SystemColors.ButtonHighlight;
+            btn_NhanVien.Location = new Point(0, 363);
+            btn_NhanVien.Name = "btn_NhanVien";
+            btn_NhanVien.Size = new Size(300, 71);
+            btn_NhanVien.TabIndex = 4;
+            btn_NhanVien.Text = "Nhân Viên";
+            btn_NhanVien.TextAlign = ContentAlignment.MiddleLeft;
+            btn_NhanVien.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btn_SanPham
             // 
-            button3.Dock = DockStyle.Top;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.ForeColor = SystemColors.ButtonHighlight;
-            button3.Location = new Point(0, 292);
-            button3.Name = "button3";
-            button3.Size = new Size(300, 71);
-            button3.TabIndex = 3;
-            button3.Text = "Sản Phẩm";
-            button3.TextAlign = ContentAlignment.MiddleLeft;
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            btn_SanPham.Dock = DockStyle.Top;
+            btn_SanPham.FlatStyle = FlatStyle.Flat;
+            btn_SanPham.ForeColor = SystemColors.ButtonHighlight;
+            btn_SanPham.Location = new Point(0, 292);
+            btn_SanPham.Name = "btn_SanPham";
+            btn_SanPham.Size = new Size(300, 71);
+            btn_SanPham.TabIndex = 3;
+            btn_SanPham.Text = "Sản Phẩm";
+            btn_SanPham.TextAlign = ContentAlignment.MiddleLeft;
+            btn_SanPham.UseVisualStyleBackColor = true;
+            btn_SanPham.Click += btn_SanPham_Click;
             // 
-            // button2
+            // btn_HoaDon
             // 
-            button2.Dock = DockStyle.Top;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Location = new Point(0, 221);
-            button2.Name = "button2";
-            button2.Size = new Size(300, 71);
-            button2.TabIndex = 2;
-            button2.Text = "Hóa Đơn";
-            button2.TextAlign = ContentAlignment.MiddleLeft;
-            button2.UseVisualStyleBackColor = true;
+            btn_HoaDon.Dock = DockStyle.Top;
+            btn_HoaDon.FlatStyle = FlatStyle.Flat;
+            btn_HoaDon.ForeColor = SystemColors.ButtonHighlight;
+            btn_HoaDon.Location = new Point(0, 221);
+            btn_HoaDon.Name = "btn_HoaDon";
+            btn_HoaDon.Size = new Size(300, 71);
+            btn_HoaDon.TabIndex = 2;
+            btn_HoaDon.Text = "Hóa Đơn";
+            btn_HoaDon.TextAlign = ContentAlignment.MiddleLeft;
+            btn_HoaDon.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_BanHang
             // 
-            button1.Dock = DockStyle.Top;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.ForeColor = SystemColors.ButtonHighlight;
-            button1.ImageAlign = ContentAlignment.TopRight;
-            button1.Location = new Point(0, 150);
-            button1.Name = "button1";
-            button1.RightToLeft = RightToLeft.No;
-            button1.Size = new Size(300, 71);
-            button1.TabIndex = 1;
-            button1.Text = "Bán Hàng";
-            button1.TextAlign = ContentAlignment.MiddleLeft;
-            button1.UseVisualStyleBackColor = true;
+            btn_BanHang.Dock = DockStyle.Top;
+            btn_BanHang.FlatStyle = FlatStyle.Flat;
+            btn_BanHang.ForeColor = SystemColors.ButtonHighlight;
+            btn_BanHang.ImageAlign = ContentAlignment.TopRight;
+            btn_BanHang.Location = new Point(0, 150);
+            btn_BanHang.Name = "btn_BanHang";
+            btn_BanHang.RightToLeft = RightToLeft.No;
+            btn_BanHang.Size = new Size(300, 71);
+            btn_BanHang.TabIndex = 1;
+            btn_BanHang.Text = "Bán Hàng";
+            btn_BanHang.TextAlign = ContentAlignment.MiddleLeft;
+            btn_BanHang.UseVisualStyleBackColor = true;
+            btn_BanHang.Click += btn_BanHang_Click;
             // 
             // panel1
             // 
@@ -146,14 +148,24 @@
             panel1.Size = new Size(300, 150);
             panel1.TabIndex = 0;
             // 
+            // pn_Show
+            // 
+            pn_Show.Location = new Point(303, 12);
+            pn_Show.Name = "pn_Show";
+            pn_Show.Size = new Size(1125, 719);
+            pn_Show.TabIndex = 1;
+            // 
             // Frm_Main
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1455, 755);
+            Controls.Add(pn_Show);
             Controls.Add(pn_Menu);
             Name = "Frm_Main";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Frm_Main";
+            Load += Frm_Main_Load;
             pn_Menu.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -162,11 +174,12 @@
 
         private Panel pn_Menu;
         private Panel panel1;
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private Button btn_KhachHang;
+        private Button btn_NhanVien;
+        private Button btn_SanPham;
+        private Button btn_HoaDon;
+        private Button btn_BanHang;
         private Button button6;
+        private Panel pn_Show;
     }
 }

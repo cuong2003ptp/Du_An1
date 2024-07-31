@@ -17,9 +17,29 @@ namespace C_PRL.Forms
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Frm_Main_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_BanHang_Click(object sender, EventArgs e)
+        {
+            pn_Show.Controls.Clear();
+            Frm_BanHang frm_BanHang = new Frm_BanHang();
+            frm_BanHang.TopLevel = false;
+            pn_Show.Controls.Add(frm_BanHang);
+            frm_BanHang.FormBorderStyle = FormBorderStyle.None;
+            frm_BanHang.Show();
+        }
+
+        private void btn_SanPham_Click(object sender, EventArgs e)
+        {
+            pn_Show.Controls.Clear();
+            Frm_SanPham frm_SanPham = new Frm_SanPham();
+            frm_SanPham.TopLevel = false;
+            pn_Show.Controls.Add(frm_SanPham);
+            frm_SanPham.FormBorderStyle = FormBorderStyle.None; 
+            frm_SanPham.Show();
         }
     }
 }
