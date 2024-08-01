@@ -1,12 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace A_DAL.Models
+namespace A_DAL.Models;
+
+public partial class Nhanvien
 {
-    public class NhanVien
-    {
-    }
+    public string IdNv { get; set; } = null!;
+
+    public string TenNv { get; set; } = null!;
+
+    public int Tuoi { get; set; }
+
+    public string? Diachi { get; set; }
+
+    public string? Sdt { get; set; }
+
+    public bool? Gioitinh { get; set; }
+
+    public string Chucvu { get; set; } = null!;
+
+    public string Taikhoan { get; set; } = null!;
+
+    public string Matkhau { get; set; } = null!;
+
+    public virtual ICollection<HoaDon> HoaDons { get; set; } = new List<HoaDon>();
 }
